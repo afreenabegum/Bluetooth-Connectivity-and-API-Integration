@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layoutbg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#13274F"
+        android:text="Bluetooth Connectivity" />
+
+    <TextView
+        android:id="@+id/btnDiscover"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:background="@drawable/btnbackground"
+        android:text="Connect Bluetooth Devices" />
+
+    <TextView
+        android:id="@+id/btnOnOff"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:textSize="20dp"
+        android:background="@drawable/btnbackground"
+        android:textAlignment="center"
+        android:text="ON/OFF" />
+
+    <TextView
+        android:id="@+id/getPairedDevices"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/btnbackground"
+        android:text="Paired Devices" />
+
+    <TextView
+        android:id="@+id/getDiscoverDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:background="@drawable/btnbackground"
+        android:text="Scanned Devices" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/device1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/btnbackground"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        android:text="Paired Device" />-->
+
+
+
+</LinearLayout>
